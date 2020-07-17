@@ -13,7 +13,7 @@ services:
         environment:
             - EULA="TRUE"
             - VERSION=1.14.3
-            - SERVER_NAME="Chikazawa Server"
+            - SERVER_NAME="My Minecraft Server"
             - REPLACE_ENV_VARIABLES="TRUE"
             - DIFFICULTY=normal  # peaceful, easy, normal, hard
             - ENABLE_COMMAND_BLOCK=true
