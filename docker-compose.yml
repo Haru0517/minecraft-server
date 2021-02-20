@@ -11,10 +11,10 @@ services:
         volumes:
             - ./data:/data
         environment:
-            - EULA="TRUE"
-            - VERSION=1.14.3
-            - SERVER_NAME="My Minecraft Server"
-            - REPLACE_ENV_VARIABLES="TRUE"
-            - DIFFICULTY=normal  # peaceful, easy, normal, hard
-            - ENABLE_COMMAND_BLOCK=true
-            - FORCE_GAMEMODE=false
+            EULA: "TRUE"
+            VERSION: 1.16.5
+            SERVER_NAME: "My Minecraft Server"
+            REPLACE_ENV_VARIABLES: "TRUE"
+            DIFFICULTY: normal  # peaceful, easy, normal, hard
+            ENABLE_COMMAND_BLOCK: "TRUE"
+            FORCE_GAMEMODE: "FALSE"
